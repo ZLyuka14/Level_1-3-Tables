@@ -1,0 +1,20 @@
+.nice {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 30px 0;
+}
+
+.nice th{
+	border: 1px solid black;
+	background: wheat;
+}
+
+.nice td{
+	border: 1px solid black;
+}
+
+.nice tr:nth-child(even){
+	background: rgba(128, 128, 128, 0.171);
+}
